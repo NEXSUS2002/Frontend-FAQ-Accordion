@@ -21,7 +21,7 @@ body {
     color: var(--heading-paragraph-color);
     min-height: 100vh;
     /* background: var(--heading-paragraph-color) no-repeat; */
-    background-image: url("/Assets/Curve\ Line.svg");
+    background-image: url("/Frontend-FAQ-Accordion/Assets/Curve Line.svg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1.875rem 1.875rem;
