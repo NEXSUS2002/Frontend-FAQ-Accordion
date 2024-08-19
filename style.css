@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --illustration-bg-graident-color: linear-gradient(45deg, #002C54, #BE56C6);
+    --heading-paragraph-color: #002C54;
+    --button-hover-color: #B454C0;
+    --neutral-container-color: #FFFFFF;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    color: var(--heading-paragraph-color);
+    min-height: 100vh;
+    /* background: var(--heading-paragraph-color) no-repeat; */
+    background-image: url("/Assets/Curve\ Line.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.875rem 1.875rem;
+}
+
+h1,
+button {
+    font-family: "Work Sans";
+    color: var(--heading-paragraph-color);
+}
+
+h1 {
+    font-size: 1.5625rem;
+}
+
+p {
+    font-size: 0.875rem;
+    /* padding: 1.5rem 0; */
+    /* font-family: "Work Sans"; */
+}
+
+button {
+    width: 100%;
+    font-size: 1.125rem;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Work Sans";
+    margin: 0 0 0.625rem 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    transition: .5s linear;
+}
+
+button:hover {
+    color: var(--button-hover-color);
+}
+
+button:active {
+    color: var(--button-hover-color);
+}
+
+.container {
+    background-color: var(--neutral-container-color);
+    border-radius: 0.625rem;
+}
+
+.accordion-illustration {
+    display: grid;
+    place-content: center;
+    background-image: var(--illustration-bg-graident-color);
+    border-radius: 0.625rem 0.625rem 0 0;
+    /* margin-bottom: 1.25rem; */
+}
+
+
+.accordion-content {
+    padding: 1.875rem;
+}
+
+.heading-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.illustration {
+    width: 11.5rem;
+}
+
+.illus {
+    width: 2.3125rem;
+}
+
+.accordion-item {
+    margin: 1.25rem 0 1.25rem 0;
+}
+
+.icon {
+    display: block;
+}
+
+.plus-icon, .minus-icon {
+    max-width: 1.4375rem;
+    transition: .5s ease-in-out;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.accordion-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease-in-out;
+}
+
+@media (min-width: 43.75rem) {
+    body {
+        padding: 0 6rem;
+    }
+
+    h1 {
+        font-size: 1.875rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.25rem;
+    }
+
+    .accordion-illustration {
+        padding: 1.25rem;
+    }
+
+    .illustration {
+        width: 27.8125rem;
+    }
+
+    .accordion-content {
+        padding: 3.125rem;
+    }
+}
+
+@media (min-width: 56.25rem) {
+    body {
+        padding: 0 9rem;
+    }
+}
+
+@media (min-width: 80rem) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 12fr;
+    }
+
+    .accordion-illustration {
+        border-radius: 0.625rem 0 0 0.625rem;
+    }
+}

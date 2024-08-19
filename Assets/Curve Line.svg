@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366.013" height="768" viewBox="0 0 1366.013 768">
+  <g id="Curve_Line" data-name="Curve Line" transform="translate(0.381)">
+    <path id="Path_6" data-name="Path 6" d="M0,0H1366V768H0Z" transform="translate(-0.381)" fill="#002c54"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(0 -68.352)">
+      <path id="Path_1" data-name="Path 1" d="M480.68,718.064c162.382-6.446,278.068-286.839,594.66-294.464S1515.139,230.636,1670,228.66" transform="translate(-304.381 101.167)" fill="none" stroke="rgba(255,211,171,0.58)" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M288.97,737.822c140.522-75.9,144.418-599.461,350.587-621.3s175.289,78.6,350.578,78.6,261.5-78.29,350.587-78.6" transform="translate(-82.026 87)" fill="none" stroke="rgba(255,211,171,0.58)" stroke-width="2"/>
+      <path id="Path_3" data-name="Path 3" d="M800.35,735.836c142.8-97.167,66.578-611.185,314.823-615s454.571,300.011,629.634,308.13" transform="translate(-411.101 87.908)" fill="none" stroke="rgba(255,211,171,0.58)" stroke-width="2"/>
+      <path id="Path_4" data-name="Path 4" d="M651.26,617.018C759.8,567.25,712.688,181.5,930.46,178.764s414.85,156.12,558.4,157.209" transform="translate(-283.413 57.401)" fill="none" stroke="rgba(255,211,171,0.58)" stroke-width="2"/>
+      <path id="Path_5" data-name="Path 5" d="M226.54,682.337C375.013,668.019,483.481,254.548,745.516,254.02s384.246,211.795,518.984,213.8" transform="translate(6.176 104.284)" fill="none" stroke="rgba(255,211,171,0.58)" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
